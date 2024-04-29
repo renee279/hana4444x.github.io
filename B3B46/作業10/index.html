@@ -70,8 +70,7 @@
     購買數量:<input type="number" name="number04"><br>
 
 </form>
-<button onclick="submitOrder()"><h4>送出</h4></button>
-<button id="modifyBtn" style="display:none;" onclick="shoppingInfo()">修改購買資訊</button>
+<button id="submitBtn" onclick="submitOrder()"><h4>送出</h4></button>
 <div id="demo"></div>
 <script>
     var text = "<h4>您的購物資訊如下:</h4>";
@@ -97,7 +96,7 @@
     function submitOrder() {
         shoppingInfo();
         isSubmitted = true;
-        document.getElementById("modifyBtn").style.display = "inline";
+        document.getElementById("submitBtn").innerHTML = "<h4>確認修正</h4>";
     }
 
     function shoppingInfo() {
@@ -158,8 +157,8 @@
     var inputs = document.querySelectorAll('input');
     for (var i = 0; i < inputs.length; i++) {
         inputs[i].addEventListener('change', function() {
-            if (isSubmitted) { //若已送出,則顯示修改按鈕
-                document.getElementById("modifyBtn").style.display = "inline";
+            if (isSubmitted) { //若已送出,則重新計算
+                shoppingInfo();
             }
         });
     }
