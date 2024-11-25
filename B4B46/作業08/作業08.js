@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"作業07_atlas_1", frames: [[0,0,672,670]]}
+		{name:"作業08_atlas_1", frames: [[0,0,672,670]]}
 ];
 
 
@@ -28,14 +28,14 @@ lib.ssMetadata = [
 
 
 (lib.Image = function() {
-	this.initialize(ss["作業07_atlas_1"]);
+	this.initialize(ss["作業08_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 // stage content:
-(lib.作業07 = function(mode,startPosition,loop,reversed) {
+(lib.作業08 = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -160,7 +160,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/作業07_atlas_1.png?1732542186175", id:"作業07_atlas_1"}
+		{src:"images/作業08_atlas_1.png?1732543099850", id:"作業08_atlas_1"}
 	],
 	preloads: []
 };
