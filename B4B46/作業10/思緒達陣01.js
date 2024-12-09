@@ -1736,8 +1736,8 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/思緒達陣01_atlas_1.png?1733745223427", id:"思緒達陣01_atlas_1"},
-		{src:"images/思緒達陣01_atlas_2.png?1733745223427", id:"思緒達陣01_atlas_2"}
+		{src:"images/思緒達陣01_atlas_1.png?1733745879779", id:"思緒達陣01_atlas_1"},
+		{src:"images/思緒達陣01_atlas_2.png?1733745879779", id:"思緒達陣01_atlas_2"}
 	],
 	preloads: []
 };
