@@ -619,7 +619,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/手繪lady_atlas_1.png?1734358840704", id:"手繪lady_atlas_1"}
+		{src:"images/手繪lady_atlas_1.png?1734359355302", id:"手繪lady_atlas_1"}
 	],
 	preloads: []
 };
